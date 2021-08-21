@@ -2,5 +2,5 @@
 
 ## 実行
 ```bash
-docker-compose run ruby app.rb
+docker-compose up
 ```
