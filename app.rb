@@ -2,7 +2,7 @@ require 'nokogiri'
 require 'open-uri'
 require 'csv'
 
-url = 'https://www.post.japanpost.jp/cgi-zip/zipcode.php?pref=8&city=1082350&addr=&cmp=1&mode=list'
+url = 'https://www.post.japanpost.jp/cgi-zip/zipcode.php?pref=8&city=1085210&addr=&cmp=1&mode=list'
 
 html = open(url).read
 doc = Nokogiri::HTML.parse(html)
